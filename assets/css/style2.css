@@ -805,12 +805,12 @@ a.btn-agile span {
 
 .abt-right,
 .slide-right-bg {
-	background: url(/assets/images/658520614bd9a.png) no-repeat center;
+	background: url("/assets/images/658520614bd9a.png") no-repeat center;
 	background-size: cover;
 }
 
 .abt-right-bg {
-	background: url(/assets/images/662f525e2a1f7.jpg) no-repeat center;
+	background: url("https://cbu01.alicdn.com/img/ibank/2017/513/811/4620118315_1677003654.jpg") no-repeat center;
 	background-size: cover;
 	height: 100%;
 }
@@ -819,7 +819,7 @@ a.btn-agile span {
 	min-height: 50vh;
 	/*background: rgba(15, 122, 156, 0.79);*/
 	background: rgb(
-			220,220,220,0.64);
+			220,220,220,0.34);
 /**/
 }
 
@@ -836,7 +836,7 @@ a.btn-agile span {
 .layer-agileits2 {
 	min-height: 50vh;
 	/*background: rgba(224, 22, 86, 0.69);*/
-	background:rgba(34,139,34, 0.69)
+	background:rgba(34,139,34, 0.29)
 }
 
 .layer-agileits-left {
@@ -855,12 +855,12 @@ a.btn-agile span {
 }
 
 .abt-left-top {
-	background: url(/assets/images/6629c51b9fb88.jpg) no-repeat center;
+	background: url("https://cbu01.alicdn.com/img/ibank/2017/513/811/4620118315_1677003654.jpg") no-repeat center;
 	background-size: cover;
 }
 
 .abt-left-bottom {
-	background: url(/assets/images/6629c52c8272d.jpg) no-repeat center;
+	background: url("https://th.bing.com/th/id/R.c86e54c2b881d47b0e5075a8c011ce27?rik=ezG7Yrph9%2fmDqQ&riu=http%3a%2f%2fs3.xchuxing.com%2fxchuxing%2fforum%2f201806%2f07%2f132044mnrss55j2saj2zs3.jpg&ehk=TZ%2fNNZZ%2frdWv4jx6kO3nSHm6GubHJBgPvhMSVH8aX4o%3d&risl=&pid=ImgRaw&r=0") no-repeat center;
 	background-size: cover;
 }
 
