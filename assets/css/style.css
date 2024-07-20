@@ -6950,3 +6950,7 @@ section .about2 .title h2 {
 
 @media (max-width: 480px) {
 }
+.about-main-wthree{
+  width: 100%;
+  height: auto;
+}

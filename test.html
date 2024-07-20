@@ -6,6 +6,72 @@
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, minimum-scale=1, maximum-scale=1">
     <link rel="stylesheet" type="text/css" href="./assets/css/bootstrap.css" />
     <link rel="stylesheet" type="text/css" href="./assets/css/style2.css" />
+    <style>
+        /* 样式设置 */
+        .about-main-wthree {
+            overflow: hidden; /* 隐藏外部容器的滚动条 */
+        }
+
+        .container-fluid {
+            max-height: 100vh; /* 限制容器的最大高度以防止溢出 */
+            overflow: hidden; /* 隐藏容器的滚动条 */
+        }
+
+        .abt-left,
+        .abt-right-bg {
+            overflow: auto; /* 允许滚动 */
+
+        }
+
+        /* 隐藏滚动条（Chrome、Safari、Edge） */
+        .abt-left::-webkit-scrollbar,
+        .abt-right-bg::-webkit-scrollbar {
+            display: none;
+        }
+
+        /* 隐藏滚动条（Firefox） */
+        .abt-left {
+            scrollbar-width: none;
+        }
+
+        .abt-right-bg {
+            scrollbar-width: none;
+        }
+
+        /* 自定义滚动条区域的背景色和其他样式（可选） */
+        .abt-left,
+        .abt-right-bg {
+            /*background: linear-gradient(white, lightgray); !* 示例背景 *!*/
+        }
+        /* 针对手机端的样式 */
+        @media (max-width: 767px) {
+            .container-fluid {
+                max-height: 100vh; /* 限制容器的最大高度 */
+                overflow: auto; /* 隐藏容器的滚动条 */
+            }
+
+            .abt-left,
+            .abt-right-bg {
+                overflow: auto; /* 允许滚动 */
+            }
+
+            /* 隐藏滚动条（Chrome、Safari、Edge） */
+            .abt-left::-webkit-scrollbar,
+            .abt-right-bg::-webkit-scrollbar {
+                display: none;
+            }
+
+            /* 隐藏滚动条（Firefox） */
+            .abt-left {
+                scrollbar-width: none;
+            }
+
+            .abt-right-bg {
+                scrollbar-width: none;
+            }
+        }
+
+    </style>
 </head>
 <body>
 <div class="about-main-wthree">
