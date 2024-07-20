@@ -1,0 +1,370 @@
+/*! www.vancheer.com  |  Powered by vancheer */
+@media screen and ( max-width:1600px ){
+	
+}
+
+@media screen and ( max-width:1440px ){
+	.sNav .list li{ margin-right: 30px; }
+	.indexPart2 .imgDiv{ margin-right: -685px; }
+	.indexPart2 .imgDiv img{ width: 700px; }
+	}
+
+@media screen and ( max-width:1366px ){
+	.indexPart1Pic .slick-prev{ left: -60px;}
+	.indexPart1Pic .slick-next{ right: -60px;}
+	.indexPart2 .imgDiv{ margin-right: -615px; }
+	.indexPart2 .imgDiv img{ width: 650px; }
+	}
+
+@media screen and ( max-width:1004px ){
+	.wal, .wal2{width:100%;}
+	.w903{ width: 100%; border-right: none; }
+	.PC-Box, .nav, .headDiv .topRight, .footNav, .ind-banner, .sideBar, .pageBanner, .pageTop, .pageNum, .w237{ display:none;}
+	.Phone-Box, .navIco, .shopIco, .bannerTel, .pageBannerTel, .pageTitleTel, .pageMore{ display:block;}
+        .Phone-Box img
+        {
+        
+        width:100%;height:auto;
+        }
+	.headDiv{ height:50px; position:relative; background: #000;}
+	.headDiv.hov{background:#000;} 
+	.headDiv .wal{ height:50px;}
+	.headDiv .logo{ left:8px; top:16px;}
+	.headDiv .logo img{ width: 155px; }
+	.indexTitle .titleImg img{ width: 220px; }
+	.indexTitle .title1{ font-size: 22px; line-height: 26px;}
+	.indexTitle .title2{ padding-top: 10px; font-size: 16px;}
+	.indexPart1{ padding: 55px 10px 35px; height: auto; background: url(../images/indexPart1Tel.jpg) no-repeat center; background-size: 100% 100%;}
+	.indexPart1 .msg{ font-size: 14px; padding: 16px 0 30px;}
+	.indexPart1Pic{ padding-bottom: 65px; }
+	.indexPart1Pic .slick .box{ margin: 0; height: 395px;}
+	.indexPart1Pic .slick a{ display: block; width: 100%; height: 100%; }
+	.indexPart1Pic .slick .imgDiv{ padding: 30px 0 10px; }
+	.indexPart1Pic .slick .imgDiv img{ width:240px; }
+	.indexPart1Pic .slick .name{ font-size: 20px; height: 28px; line-height: 28px;}
+	.indexPart1Pic .slick .wen{ font-size: 14px;  }
+	.indexPart1Pic .slick-prev{ left: 50%; margin-left: -60px; bottom: 0px; top: auto; margin-top: 0px; width: 38px; height: 38px; background-size: 38px;}
+	.indexPart1Pic .slick-next{ right: 50%; margin-right: -60px; bottom: 0px; top: auto; margin-top: 0px; width: 38px; height: 38px; background-size: 38px;}
+	.indexPart1Pic .slick-prev:hover{ background-size: 38px; }
+	.indexPart1Pic .slick-next:hover{ background-size: 38px; }
+	.indexPart2{ background: url(../images/indexPart2Tel.jpg) no-repeat center; background-size: 100% 100%; padding: 55px 10px; height: auto; }
+	.indexPart2 .leftDiv{ padding-top: 35px; }
+	.indexPart2 .txt{ font-size: 18px; padding-bottom: 10px; text-align: center;}
+	.indexPart2 .wen{ font-size: 14px; padding-bottom: 30px; text-align: center;}
+	.indexPart2 .videoImg img{ width: 100%;}
+	.indexPart2 .more{ padding-top: 35px; }
+	.indexPart2 .more a{ margin: 0 auto; }
+	.indexPart2 .imgDiv{ display: none; }
+	.indexPart3{ background: #000 url(../images/nimg309_1.jpg) no-repeat right bottom; background-size: 40%; padding: 55px 10px; height: auto;}
+	/*.indexPart3 .tab2{ padding-top: 20px; height: 50px;}
+	.indexPart3 .tab2 li{ font-size: 14px; height: 28px; margin: 0 20px;}*/
+    .indexPart3 .tab2{ padding-top: 20px; height: 50px; text-align:center;}
+	.indexPart3 .tab2 li{ float:none; display:inline-block; font-size: 14px; height: 28px; margin: 0 20px;}
+
+	.indexPart3 .detail{ width: 100%; height: auto;}
+	.indexPart3 .detail .imgDiv img{ width: 100%; }
+	.indexPart3 .detail a .imgDiv{height: auto;}
+	.indexPart3 .detail .botDiv{ padding: 10px 15px 20px 15px; }
+	.indexPart3 .detail .name{ line-height: 28px; font-size: 16px; height: 56px;}
+	.indexPart3 .detail .time{ padding-top: 10px; font-size: 12px; }
+	.indexPart3 .list{ width: 100%; padding-top: 5px;}
+	.indexPart3 .list li{ margin-bottom: 5px; height: auto; }
+	.indexPart3 .list li a{ height: auto; padding: 0 12px 10px 146px;}
+	.indexPart3 .list li .imgDiv{width: 130px; height: 100%;}
+	/* .indexPart3 .list li .imgDiv img{ width: 130px; } */
+	.indexPart3 .list li .name{ padding-top: 10px; height: auto; line-height: 18px;}
+	.indexPart3 .list li .time{ padding-top: 12px; font-size: 13px;}
+	.indexPart3 .btnDiv{ margin: 32px auto 0;}
+	/*.footDiv{ padding: 45px 0 20px; height:auto;}
+	.footDiv .wal{ height: auto; }
+	.footDiv .leftDiv{ width: auto; padding-left: 10px; float: none;}
+	.footDiv .logo{ padding-bottom: 20px; }
+	.footDiv .tel{ font-size: 22px; }
+	.footDiv .address{ line-height: 22px; padding-bottom: 20px;}
+	.footDiv .rightDiv{ width: 100%; float: none;}
+	.footDiv .ewmList{ padding-left: 10px; }
+	.footDiv .ewmList ul{ margin-left: 0px; }
+	.footDiv .ewmList li .box{ width: 102px; margin-left: 0px; margin-right: 20px;}
+	.footDiv .share{ float: none; padding-top: 15px; padding-left: 15px;}
+	.footDiv .share li{; margin: 0 6px; }
+	.footDiv .links{ position: relative; left: 0px; bottom: 0px; margin-left: -10px; padding: 30px 10px 40px;}
+	.footDiv .links a{ padding: 0 10px; line-height: 26px;}
+	.footDiv .msg{ position: relative; bottom: 0px; text-align: center; border-top: #3c3c3f solid 2px; padding: 10px 10px 0; line-height: 24px;}*/
+    .footDiv{ padding: 45px 0 20px; height:auto;}
+	.footDiv .wal{ height: auto; }
+	.footDiv .leftDiv{ width: auto; padding-left: 10px; padding-right:10px; float: none;}
+	.footDiv .logo{ padding-bottom: 20px; text-align:center; }
+	.footDiv .tel{ font-size: 22px;  text-align:center;}
+	.footDiv .address{ line-height: 22px; padding-bottom: 20px; text-align:center;}
+	.footDiv .list-title{ text-align:center;}
+	.footDiv .rightDiv{ width: 100%; float: none;}
+	.footDiv .ewmList{ padding-left: 10px; text-align:center; padding-right:10px;}
+	.footDiv .ewmList ul{ margin-left: 0px; }
+	.footDiv .ewmList li{ float:none; display:inline-block;}
+	.footDiv .ewmList li .box{ width: 102px; margin-left: 10px; margin-right: 10px;}
+	.footDiv .share{ float: none; padding-top: 15px; padding-left: 0px; text-align:center;}
+	.footDiv .share li{ margin: 0 6px; float:none; display:inline-block;}
+	.footDiv .links{ position: relative; left: 0px; bottom: 0px; text-align: center; padding: 30px 10px 40px;}
+	.footDiv .links a{ padding: 0 10px; line-height: 26px;}
+	.footDiv .msg{ position: relative; bottom: 0px; text-align: center; border-top: #3c3c3f solid 2px; padding: 10px 10px 0; line-height: 24px;}
+
+	.pageBox{ padding: 25px 10px 30px; }
+	.about{ padding-bottom: 20px; }
+	.about .leftCon{ width: 100%; }
+	.about .txt1{ font-size: 18px; padding: 0px 0 10px;}
+	.about .txt2{ font-size: 26px; padding-bottom: 25px; }
+	.about .content{ font-size: 14px; line-height: 26px; }
+	.about .rightDiv{ width: 100%; padding-top: 25px;}
+	.aboutPic .slick-prev{ left: 0px; width: 50px; height: 50px; background-size: 50px;}
+	.aboutPic .slick-next{ left: 50px; width: 50px; height: 50px; background-size: 50px;}
+	.aboutPic .slick-prev:hover{ background-size: 50px;}
+	.aboutPic .slick-next:hover{ background-size: 50px;}
+	.honor{ padding-bottom: 10px; }
+	.honor .txt1{ font-size: 18px;}
+	.honor .txt2{ font-size: 26px; }
+	.honor .msg{ font-size: 14px; padding-bottom: 40px; }
+	.honor .list{ padding: 0; }
+	.honor .list li{ width: 50%; margin-bottom: 25px; }
+	.honor .list .li01{ width: 100%; }
+	.honor .list li img{ width: 130px; }
+	.honor .list2 li{ width: 50%; margin-bottom: 25px;}
+	.honor .list2 li img{ width: 130px; }
+	.honor2{ padding: 40px 10px; }
+    .h_banner {padding: 0 40px; } 
+	.h_banner .swiper-slide {width: 100%; } 
+	.h_banner .swiper-slide .img{ padding:10px;}
+	.h_banner .swiper-slide p{font-size: 12px;height:50px; line-height:28px;}
+
+
+	.technology .txt1{ font-size: 18px;}
+	.technology .txt2{ font-size: 26px; padding-bottom: 40px; }
+	.technology .list li{ height: auto; padding: 0 0 30px 0; margin-bottom: 30px;}
+	.technology .list li .contentBox{ height: auto; padding: 20px 15px 0; }
+	.technology .list li .name1{ font-size: 18px;}
+	.technology .list li .name2{ padding-bottom: 20px;}
+	.technology .list li .imgDiv{ position: relative;}
+	.technology .list li .imgDiv img{ width: 100%; }
+	.technology .list li dd{ line-height: 26px; padding-left: 20px; background: url(../images/ico2.png) left 9px no-repeat; }
+	.technology .list li .content{ line-height: 26px; width: auto; }
+	.technology .list .li01{ padding: 0 0 30px 0;}
+	.technology .list .li01 dd{ color: #fff; background: url(../images/ico2on.png) left 9px no-repeat; }
+	.technology .list .other{ height: auto; }
+	.technology .list .other .contentBox{ height: auto; }
+	.case{ padding-bottom: 25px; }
+	.case .txt1{ font-size: 18px;}
+	.case .txt2{ font-size: 26px; padding-bottom: 20px; }
+	.case .toutou{ height: auto; padding-bottom: 25px; }
+	.case .msg{ font-size: 14px; padding-bottom: 20px;}
+	.case .tab22{ position: relative; }
+	.case .tab22 li{ font-size: 14px; margin-left: 0px; margin-right: 20px; padding-bottom: 10px;}
+	.case .list{ padding-bottom: 30px; }
+	.case .list ul{ margin-right: -10px; }
+	.case .list li{ margin-bottom: 10px;}
+	.case .list li .box{ margin-right: 10px;}
+	.case .list li .mxf{ height: 28px; margin-top: -14px;}
+	.case .list li .name{ font-size: 14px; height: 28px; line-height: 28px; overflow: hidden;}
+	.case .list li .ico{ display: none; }
+	.quesTab{ padding-bottom: 30px;}
+	.quesTab li{ margin: 0 15px;}
+	.quesTab li a{ height: 30px; font-size: 14px;}
+	.quesTab li .aNow, .quesTab li a:hover{ border-bottom: #3bcaf6 solid 2px; }
+	.question{ padding-bottom: 30px; }
+	.question .txt1{ font-size: 18px;}
+	.question .txt2{ font-size: 26px;}
+	.question .list{ padding-bottom: 45px; }
+	.question .list li{ padding-top: 25px; height: auto; padding-bottom: 25px;}
+	.question .list li .wen{}
+	.question .list li .da{ height: auto; min-height: 27px;}
+	.maintain{ padding-bottom: 30px;}
+	.maintain .leftDiv{ width: 100%; }
+	.maintain .txt1{ font-size: 18px;}
+	.maintain .txt2{ font-size: 26px; padding-bottom: 25px; }
+	.maintain .content{ font-size: 14px; line-height: 26px;}
+	.maintain .rightImg{ padding-top: 25px; }
+	.maintain .rightImg img{ width: 100%; }
+	.service li{ margin-bottom: 35px; }
+	.service .leftDiv{ width: 100%; }
+	.service .txt1{ font-size: 18px;}
+	.service .txt2{ font-size: 26px; padding-bottom: 25px; }
+	.service .msg{ padding-bottom: 20px;}
+	.service .content{ font-size: 14px; line-height: 26px; }
+	.service .rightImg{ padding-top: 20px; }
+	.service .rightImg2{ padding-top: 20px; }
+	.service .rightImg img{ width: 100%; }
+	.service .tel{ padding-top: 25px; }
+	.service .tel em{ padding-left: 20px; }
+	.video{ padding-bottom: 30px; }
+	.videoPic .agentlist{  margin:0 -6px;width:auto; padding-bottom: 80px; height:auto;}
+	.videoPic .agentlist .slick-slide{float:left; margin:0 6px;}
+	.videoPic .slick-slide .name{ padding-top:10px; font-size:14px; height: 44px; line-height: 22px; overflow: hidden;}
+	.videoPic .slick-prev{ top:auto; bottom:15px; margin-top:0px; left:50%; margin-left:-55px;}
+	.videoPic .slick-next{ top:auto; bottom:15px; margin-top:0px; right:50%; margin-right:-55px;}
+	.videoPic .slider-for .box{ padding-bottom:10px;}
+	.videoPic .slider-for .imgDiv{ width:100%;}
+	.videoPic .slider-for .imgDiv img{ width:100%;}
+    	.videoPic .slider-for .imgDiv video{ width:100%;height:auto;}
+	.videoPic .slider-for .title{ font-size: 16px;}
+	.videoPic .slider-for .time{ font-size: 12px; padding-bottom: 20px; }
+	.productBox{ padding: 20px 0 45px;}
+	.product .tab2{ padding-bottom: 30px; }
+	.product .tab2 li{ width: 33.33%; margin-bottom: 15px; }
+	.product .tab2 li .limg img{ width: 90px; }
+	.product .tab2 li .name{ font-size: 14px; padding-top: 5px; }
+	.product .list{ padding: 0 10px; }
+	.product .list ul{ margin-right: 0px; }
+	.product .list li{ float: none; width: 100%; margin-bottom: 15px; }
+	.product .list li .box{ margin-right: 0px; height:150px; }
+	.product .list li a{ width: auto; padding-right: 120px;}
+	.product .list li .imgDiv{ right: 20px; }
+	.product .list li .imgDiv img{ height:  150px;}
+	.product .list li .name{ padding: 25px 0 0 15px; font-size: 18px;}
+	.product .list li .msg{ padding: 5px 0 0 15px; height: 26px; line-height: 26px; font-size: 16px; }
+	.product .list li .content{ font-size: 13px; line-height: 20px; padding: 10px 0 0 15px; height: 40px; width: auto; }
+	.proMsg{ height: auto; padding: 10px; }
+	.proMsg .name{ line-height: 26px; font-size: 20px; float: none;}
+	.proMsg .list{ float: none; }
+	.proMsg .list li{ margin-left: 0px; margin-right: 25px; line-height:32px; font-size: 14px;}
+	.proMsg .list li .btn1{ margin-top: 0px; }
+	.parameter .title{ font-size: 18px; padding-bottom: 20px; }
+	.parameter .leftDiv{ padding-left: 0px; width: 100%;}
+	.parameter .rightDiv{ padding-right: 0px; width: 100%; margin-top: 10px;}
+	.parameter .list li{ height: auto; min-height: 24px; padding-top: 5px; padding-bottom: 5px; padding-left: 160px; font-size: 13px; line-height: 24px;}
+	.parameter .list li em{ text-indent: 10px; width: 145px; height: 100%; }
+	.parameter .rightDiv li{ padding-left: 160px;}
+	.news{ padding-bottom: 40px; }
+	.news .list{ padding-bottom: 30px; }
+	.news .list ul{ margin-right: 0px; }
+	.news .list li{ float:  none; margin-bottom: 25px;}
+	.news .list li .box{ width: 100%; margin-right: 0px; height: auto; padding-bottom: 25px;}
+	.news .list .li01 .box{ width: 100%; } 
+	.news .list li .name{ padding-top: 20px; height: auto; line-height: 22px;}
+	.news .list li .content{ padding-top: 15px; line-height: 24px; height: 48px;}
+	.news .list li .botDiv{ padding-top: 15px;}
+	.news .list li .add{ top: 15px;}
+	.news .list li .wen{ height: auto; padding:10px 15px;}
+	.news .list li .name2{  height: auto; line-height: 18px; font-size: 14px; }
+	.news .list li .time2{ display: none; }
+	.newShow{ width: 100%; }
+	.newShow .name{ font-size: 18px; padding-bottom: 10px; }
+	.newShow .time{ padding-bottom: 20px;}
+	.newShow .content{ padding: 20px 0 40px; line-height: 30px; }
+	.newShow .content li{list-style-type: disc;}
+	/* .newShow .content .video embed, .newShow .content .video iframe, .newShow .content .video video{width: 100%; height: auto;} */
+	.newShow .imgDiv{ padding: 25px 0; }
+	.newShow .imgDiv img{ width: 100%; }
+	.pageDown{height:auto; padding-bottom: 25px;}
+	.pageDown .box{ padding-top:25px;}
+	.pageDown .btn{position:relative; top:0px; margin-top: 25px; }
+	.pageDown li{ height:30px; line-height:30px; }
+	.contact{ padding-bottom: 10px; }
+    .contact .mapDiv {width: 100%;height: auto;overflow: hidden;}
+	.contact .mapDiv img{ width: 100%; }
+	.contact .toptop{ padding-bottom:10px;}
+	.contact .midDiv{ padding: 25px 10px; height: auto; display: block;}
+	.contact .midDiv .lala{ float: none; width: 100%; border-right: none; height: auto; padding-bottom:15px;}
+	.contact .midDiv .logo{ padding-top:20px;}
+	.contact .midDiv .lie{ float: none; padding-left: 0px;padding-right: 0px; padding-top: 15px; width: 100%;}
+	.contact .midDiv .lie li{  line-height: 24px;}
+	.contact .list{ padding-top:35px; }
+	.contact .list ul{ margin-right: 0px; }
+	.contact .list li{ padding:0; float: none; width: 100%; margin-bottom: 25px;}
+	.contact .list li .box{ margin-right: 0px;}	
+	.contact .mxfDiv{ height:auto; background: none;}
+	.contact .list li .name{ color: #333; height: auto;}
+	.contact .list li .msg{ color: #666; }
+	.contact .list li .msg a{ color: #666; }
+	.contact .part3{ padding:20px 10px 0;}
+	.contact .part3 .title{ font-size:20px; padding-bottom:15px;}
+	.contact .part3 .form{ width:auto;}
+	.contact .part3 ul{ margin-right:0;}
+	.contact .part3 li{ float:none; width:100%; padding-bottom:15px;}
+	.contact .part3 li .lbox{ margin-right:0;}
+	.contact .part3 li select{ text-indent:10px; height:48px; line-height:48px; font-size:14px;}
+	.contact .part3 li .select:after{ top: 15px; font-size: 14px;}
+	.contact .part3 li .txt{ font-size:14px; left:20px; top:16px;}
+	.contact .part3 li .input1{ height:48px; line-height:48px; padding-left:130px; font-size:14px;}
+	.contact .part3 textarea{ width:100%; height:140px;}
+	.contact .part3 .btn{ width:120px; height:40px; line-height:40px;}
+	.joinPart1{ padding: 50px 10px 55px; }
+	.joinPart1 .title{ font-size: 20px; padding-bottom: 22px; }
+	.joinPart1 .msg{ font-size: 14px; padding: 20px 0 30px; line-height: 26px; }
+	.joinPart1 .imgDiv img{ width: 100%;}
+	.joinPart2{ padding: 40px 10px 50px; }
+	.joinPart2 .title{ font-size: 20px; padding-bottom: 22px; }
+	.joinPart2 .msg{ padding: 20px 0 30px; font-size: 14px; text-align: center; line-height: 26px; }
+	.joinPart2 .list{ padding: 0; }
+	.joinPart2 .list li{ width: 50%; margin-bottom: 25px;}
+	.joinPart2 .list li .name{ padding-top: 12px; font-size: 14px;}
+	.joinPart3{ padding: 40px 10px;}
+	.joinPart3 .leftImg{ width: 100%; }
+	.joinPart3 .leftImg img{ width: 100%; }
+	.joinPart3 .rightCon{ width: 100%; }
+	.joinPart3 .title{ font-size: 20px; padding: 24px 0 22px; }
+	.joinPart3 .list{ padding-top: 25px; }
+	.joinPart3 .list li{ padding-left: 65px; height: 49px; line-height: 24px; font-size: 14px;}
+	.joinPart3 .list li .num{ font-size: 16px; }
+	.joinPart4{ padding: 40px 10px; height: auto; background: #f7f7f7;}
+	.joinPart4 .title{ margin-bottom: 23px; font-size: 20px; position: relative; padding-bottom: 22px; }
+	.joinPart4 .listBox{ width: 100%; height: auto; }
+	.joinPart4 .list{ padding: 25px 0; background: none; }
+	.joinPart4 .list li{ width: 50%; height: 246px;}
+	.joinPart4 .list li .box{ padding: 0 10px; }
+	.joinPart4 .list li .ico{ padding: 25px 0 12px; }
+	.joinPart4 .list li .name{ font-size: 15px; padding-bottom: 5px;}
+	.joinPart4 .list li .msg{ font-size: 12px; line-height: 20px; }
+	.joinPart5{ padding: 40px 10px 30px; }
+	.joinPart5 .title{ font-size: 20px; padding-bottom: 22px; }
+	.joinPart5 .list{ padding-top: 25px; }
+	.joinPart5 .list ul{ margin-right: 0px; }
+	.joinPart5 .list li{ float: none; width: 100%; margin-bottom: 18px;}
+	.joinPart5 .list li .box{ margin-right: 0px; height: 172px; }
+	.joinPart5 .list li .name1{ padding: 25px 0 0 20px; font-size: 20px; }
+	.joinPart5 .list li .name2{ padding: 10px 0 15px 20px; font-size: 16px;}
+	.joinPart5 .list li .name2 em{ left: 20px; }
+	.joinPart5 .list li .msg{ padding: 20px 10px 0 20px; }
+	.joinPart6{ background: none; padding: 0 10px 40px;}
+	.joinPart6 .title{ margin-bottom: 25px; font-size: 20px; padding-bottom: 22px; }
+	.joinPart6 .form {padding: 20px 15px 90px; } 
+	.joinPart6 .form ul{ margin-right: 0px; }
+	.joinPart6 .form li{ float: none; width: 100%; }
+	.joinPart6 .form li .box{height: 43px; padding-left: 90px; margin-right: 0; width: auto; } 
+	.joinPart6 .form li em {width: 80px; left: 6px; } 
+	.joinPart6 .form li .input1 {width: 100%; padding: 0 5%; box-sizing: border-box;} 
+	.joinPart6 .form li select{width: 100%;padding: 0 5%; box-sizing: border-box;}
+	.joinPart6 .textarea {padding-top: 10px; } 
+	.joinPart6 .textarea textarea {width: 100%; height: 115px; padding: 10px 5%; box-sizing: border-box; }
+	.joinPart6 .btnDiv .btn1{margin-right:10px;}
+      .indexPart2 .videoImg video
+    {
+        width:100%;
+    }
+      .bigPicLayer{ width:300px; height:auto; padding: 0px; margin-top:-150px;}
+.bigPicLayer .close{ display:block; width:38px; height:38px; background:url(../images/m5_off.png) no-repeat; left: 50%; margin-left: -15px ; top:-60px; position: relative; position:absolute; z-index:222;}
+.bigPicLayer .close em{ width: 1px; height: 50px; background: #FFFFFF; display: block; position: absolute; left: 50%; margin-left: -0.5px; top: 100%;  }
+.bigPicLayer .imgDiv{ height:169px;}
+/*2019.12.19*/
+	.distributor{ padding:0 10px;}
+	.distributor .title{ font-size:24px; line-height:24px; padding-bottom:10px;}
+	.distributor .wen{ font-size:16px; padding-bottom:25px;}
+	.distributor .form{ width:auto; padding-bottom:50px;}
+	.distributor .list{ padding:40px 20px 0;}
+	.distributor .list li{ margin-bottom:25px;}
+	.distributor .list li .txt{ font-size:16px;}
+	.distributor .list li .input1{ height:36px; line-height:36px; font-size:14px;}
+	.distributor .list li select{ height:36px; line-height:36px; font-size:14px; }
+	.distributor .btnDiv{ padding-left:20px;}
+	.distributor .btnDiv a{ width:120px; height:36px; font-size:14px; line-height:36px;}
+
+	.download{ padding:45px 10px 85px;}
+	.download .msg{ font-size:18px;}
+	.download .form .lbox{ float:none; background:none;}
+	.download .form select{ width:49%; line-height:40px; padding-left:18px; font-size:14px;}
+	.download .form .rbox{ margin-left:0; margin-top:20px; float:none;}
+	.download .form .rbox a{ width:160px; height: 40px; line-height:40px;}
+	.download .list{ padding:30px 0;}
+	.download .list li a{ height:45px; padding-left:10px;}
+	.download .list li a:after{ right:15px;}
+	.download .list li .name{ padding-left:30px; font-size:14px; line-height:45px;}
+
+	}
+

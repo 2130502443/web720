@@ -1,0 +1,92 @@
+
+/* Add similar media queries for other sections as needed */
+.w1200{width:1200px;margin:0 auto;}
+.w1280{width:1280px;margin:0 auto;}
+.w1400{width:1400px;margin:0 auto;}
+.w1440{width:1440px;margin:0 auto;}
+.w1600{width:1600px;margin:0 auto;}
+
+@media screen and (max-width:1200px){.w1200{padding:0 20px;}}
+@media screen and (max-width:1280px){.w1280{padding:0 -20px;}}
+@media screen and (max-width:1400px){.w1400{padding:0 20px;}}
+@media screen and (max-width:1440px){.w1440{padding:0 20px;}}
+@media screen and (max-width:1600px){.w1600{padding:0 20px;}}
+
+.icase{ padding:40px 0 25px 0;}
+.icaset{ text-align:center;}
+.icaset .tit{font-size:30px; line-height:35px; color:black; float: left;margin-top: -40px}
+.icaset .tit span{ color:black;}
+.icaset .info{ font-size:17px; line-height:32px; color:#777777; margin-top:15px; letter-spacing:1px;}
+/*.icasea{ padding:50px 0 40px 0;}*/
+.icasea{ padding:0 0 0 0;}
+.icasea .list{
+    /*width: 199px;*/
+    height: 400px;
+    float: left;
+    margin-right: 10px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all ease .3s;
+}
+
+}
+
+.icasea .list:nth-of-type(5){ margin-right:0;}
+.icasea .list .img{ width:100%; height:100%;}
+.icasea .list:hover .img{transform:scale(1.2);}
+.icasea .list .con{ width:100%; height:100%; position:absolute; z-index:2; padding:40px 30px 40px 30px; top:0; left:0;}
+.icasea .list .con .tit{}
+.icasea .list .con .tit .t{ font-size:24px; color:#fff; line-height:40px; font-weight:bolder; letter-spacing:1px;}
+.icasea .list .con .tit .i{ font-size:14px; line-height:30px; color:#fff; letter-spacing:1px;}
+/*.icasea .list.on{ width:700px;}*/
+.icasea .list .con .info{width:320px; position:absolute; z-index:3; left:30px; bottom:40px; font-size:14px; line-height:23px; color:#fff; letter-spacing:1px; display:none; }
+.icasea .list .con .more{ /*width:258px;*/ height:42px; position:absolute; z-index:4; left:31px; bottom:140px; display:flex;flex-direction: row;justify-content:space-between;display:none;}
+.icasea .list .con .more a:nth-of-type(1){ width:120px; height:42px; line-height:42px; text-align:center; background:#e50120; font-size:14px; color:#fff; letter-spacing:1px;}
+.icasea .list .con .more a:nth-of-type(1):hover{ background:#ba0a22; color:#fff;}
+.icasea .list .con .more a:nth-of-type(2){ width:120px; height:42px; line-height:38px; border:2px #989797 solid; text-align:center; font-size:14px; color:#fff;}
+.icasea .list .con .more a:nth-of-type(2):hover{border:2px #e50120 solid; background:#e50120; color:#fff;}
+.icasea .list.on .con .info{ display:block;}
+.icasea .list.on .con .more{ display:flex;}
+
+
+.icasea .list.on{/* animation:fadenum 2s;*/ width:444px; }
+/*.icasea .list:hover{ width:700px;}*/
+/*@keyframes fadenum{
+	from{width:280px;}
+	to{width:700px;}
+}*/
+
+.icasec{ margin-bottom:50px;}
+.icasec .tit{}
+.icasec .tit a{ display:inline-block; font-size:15px; color:#454545; line-height:32px; padding:0 36px; background:url(https://xystcdn.xydec.com.cn/static/xy2022/images/i_case_cate_icon.jpg) no-repeat right 50%;}
+.icasec .tit a.last{ background:none;}
+.icasec .tit a:hover{ color:#e50120;}
+.icasec .tit a.on{ color:#e50120;}
+
+.icasec .con{ padding-top:30px;}
+.icasec .con ul{display:grid;grid-template-columns:repeat(3, 1fr); gap:27px;}
+.icasec .con ul li{ position:relative; z-index:1;width:408px;height:235px;overflow: hidden;background: #f1f1f1;}
+.icasec .con ul li .img{ width:100%; height:100%; overflow:hidden; position:relative;}
+.icasec .con ul li .img img{ width:408px; height:235px; display:block;-webkit-transition: all ease .3s; transition: all ease .3s }
+.icasec .con ul li .con{ position:absolute; z-index:2; padding:20px; left:0; bottom:0; display:flex;justify-content:space-between; width:100%;}
+.icasec .con ul li .con .tit{ font-size:14px; line-height:32px; color:#fff; font-weight:bolder;width: 160px;overflow: hidden;text-overflow:ellipsis;white-space: nowrap;}
+.icasec .con ul li .con .info{font-size:14px; line-height:32px; color:#fff;width: 276px;text-align: right;overflow: hidden;text-overflow:ellipsis;white-space: nowrap; }
+.icasec .con ul li .over{width:100%; height:100%; position:absolute; z-index:5; left:0; top:0; padding:60px 15px 20px 15px; text-align:center;color:#fff; background: rgba(0,0,0,0.7); display:none;}
+.icasec .con ul li .over .tit{ font-size:22px; line-height:35px;}
+.icasec .con ul li .over .info{ line-height:35px; font-size:16px;}
+.icasec .con ul li .over .more{ margin-top:35px;display:flex;justify-content:space-between; text-align:left;}
+.icasec .con ul li .over .more a:nth-of-type(1){ width:180px; height:45px; background:url(https://xystcdn.xydec.com.cn/static/xy2022/images/i_case_m.png) no-repeat 35px 50% #d0021e; font-size:14px; color:#fff; text-indent:58px; line-height:45px;}
+.icasec .con ul li .over .more a:nth-of-type(1):hover{ background:url(https://xystcdn.xydec.com.cn/static/xy2022/images/i_case_m.png) no-repeat 35px 50% #ba0a22; color:#fff;}
+.icasec .con ul li .over .more a:nth-of-type(2){ width:180px; height:45px; line-height:43px; border:1px #959594 solid; text-align:center; font-size:14px; color:#fff;}
+.icasec .con ul li .over .more a:nth-of-type(2):hover{border:1px #e50120 solid; background:#e50120; color:#fff;}
+.icasec .con ul li:hover .img img{-webkit-transform: scale(1.15); transform: scale(1.15);}
+.icasec .con ul li:hover .over{ display:block;}
+.icasec .con ul li:hover .con{ display:none;}
+.icasem{ text-align:center;}
+.icasem a{ display:inline-block; text-align:left; color:#fff; font-size:16px;}
+.icasem a.iszml{ width:270px; height:55px; line-height:55px; background:url(https://xystcdn.xydec.com.cn/static/xy2022/images/i_sz_m.png) no-repeat 45px 50% #e50120; text-indent:70px; margin-right:19px;}
+.icasem a.iszml:hover{background:url(https://xystcdn.xydec.com.cn/static/xy2022/images/i_sz_m.png) no-repeat 45px 50% #ba0a22; color:#fff;}
+.icasem a.iszmr{ width:220px; height:55px; line-height:53px; border:1px #b3b3b3 solid; text-align:center; color:#222222}
+.icasem a.iszmr:hover{border:1px #e50120 solid; background:#e50120; color:#fff;}
