@@ -705,19 +705,13 @@ gtag('set', 'ads_data_redaction', true);
                  </div>
              </div>
              <div class="carousel">
-<!--                 <img src="https://th.bing.com/th/id/R.c204010dd17b97dbc8ce6a480050d1b8?rik=x18Okx70fUm08A&riu=http%3a%2f%2fpic.616pic.com%2fys_bnew_img%2f00%2f07%2f55%2fJz9MaHPtef.jpg&ehk=2GjX14IQkEg7kAlBRb9bRu%2brcB%2b%2fqBMDSLj1B75szN0%3d&risl=&pid=ImgRaw&r=0" class="active" alt="Image 1">-->
-<!--                 <img src="https://img.51miz.com/Element/00/81/57/72/305d4ea8_E815772_a271014e.png" alt="Image 2">-->
-<!--                 <img src="https://img.51miz.com/Element/00/82/14/34/3e80cec9_E821434_81b1fa70.png" alt="Image 3">-->
-<!--                 &lt;!&ndash; 添加更多图片根据需要 &ndash;&gt;-->
                  <div class="box">
-                     <!-- 图片部分 -->
                      <ul>
                          <li class="current"><a href="#"><img src="https://th.bing.com/th/id/R.c204010dd17b97dbc8ce6a480050d1b8?rik=x18Okx70fUm08A&riu=http%3a%2f%2fpic.616pic.com%2fys_bnew_img%2f00%2f07%2f55%2fJz9MaHPtef.jpg&ehk=2GjX14IQkEg7kAlBRb9bRu%2brcB%2b%2fqBMDSLj1B75szN0%3d&risl=&pid=ImgRaw&r=0" alt=""></a></li>
                          <li class="next"><a href="#"><img src="https://img.51miz.com/Element/00/81/57/72/305d4ea8_E815772_a271014e.png" alt=""></a></li>
                          <li class="prev"><a href="#"><img src="https://img.51miz.com/Element/00/82/14/34/3e80cec9_E821434_81b1fa70.png" alt=""></a></li>
                          <li class="prev"><a href="#"><img src="https://img.51miz.com/Element/00/82/14/34/3e80cec9_E821434_81b1fa70.png" alt=""></a></li>
                      </ul>
-                     <!-- 图片部分 end -->
                      <div class="btnimg">
                          <a href="javascript:void(0)" class="prevBtn">
                              <img src="https://s1.aigei.com/src/img/png/29/292c3de57f4f4a88a02dc498b585142c.png?imageMogr2/auto-orient/thumbnail/!282x282r/gravity/Center/crop/282x282/quality/85/%7CimageView2/2/w/282&e=1735488000&token=P7S2Xpzfz11vAkASLTkfHN7Fw-oOZBecqeJaxypL:cl9DvMXPiSWaZhGjcoOq53Gaf44=">
@@ -726,17 +720,43 @@ gtag('set', 'ads_data_redaction', true);
                              <img src="https://s1.aigei.com/src/img/png/d9/d93cf2f366524d9abba19865576100c5.png?imageMogr2/auto-orient/thumbnail/!282x282r/gravity/Center/crop/282x282/quality/85/%7CimageView2/2/w/282&e=1735488000&token=P7S2Xpzfz11vAkASLTkfHN7Fw-oOZBecqeJaxypL:dWM6joL2SfSXfnVYZjB-3_j5jgg=">
                          </a>
                      </div>
-
                  </div>
              </div>
          </div>
-<!--         <div class="buttons">-->
-<!--             <button id="prevBtn">←</button>-->
-<!--             <button id="nextBtn">→</button>-->
-<!--         </div>-->
      </div>
  </section>
  <script>
+     // 获取视频和播放按钮的元素
+     const video = document.getElementById("custom-video");
+     const playButton = document.getElementById("play-button");
+
+     // 播放和暂停视频的函数
+     function togglePlayPause() {
+         if (video.paused) {
+             video.play();
+             playButton.textContent = "❚❚"; // 改变按钮为暂停符号
+             setTimeout(() => {
+                 playButton.style.display = "none"; // 5秒后隐藏播放按钮
+             }, 5000);
+         } else {
+             video.pause();
+             playButton.textContent = "▶"; // 改变按钮为播放符号
+             playButton.style.display = "block"; // 显示播放按钮
+         }
+     }
+
+     // 给播放按钮添加点击事件监听器
+     playButton.addEventListener("click", togglePlayPause);
+
+     // 给视频添加点击事件监听器
+     video.addEventListener("click", togglePlayPause);
+
+     // 当视频播放结束时，重置播放按钮
+     video.addEventListener("ended", function() {
+         playButton.textContent = "▶"; // 改变按钮为播放符号
+         playButton.style.display = "block"; // 显示播放按钮
+     });
+
      let lis = document.querySelectorAll(".box ul > li");
      let prevBtn = document.querySelector(".prevBtn");
      let nextBtn = document.querySelector(".nextBtn");
@@ -789,7 +809,6 @@ gtag('set', 'ads_data_redaction', true);
          showPic(index);
      }, 5000);
  </script>
-
 
 <!-- <script>-->
 <!--     let currentIndex = 0;-->
