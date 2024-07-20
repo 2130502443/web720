@@ -3599,10 +3599,10 @@ section .index3 .title h2 {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 500px;
+  /*height: 500px;*/
   overflow: hidden; /* 隐藏溢出内容 */
   width: 100%; /* 根据需要调整宽度 */
-  /*height: 100%;*/
+  height: 100%;
   position: relative;
   perspective: 500px; /* 3D视点距屏幕的距离 */
   margin-right: auto;
@@ -3736,6 +3736,19 @@ a {
 
   .box>ul>li.prev {
     transform: translate(-105%, -50%) scale(0.6, 0.6) rotateY(10deg); /* 调整左侧图片的位置 */
+  }
+  .carousel .box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    overflow: hidden; /* 隐藏溢出内容 */
+    width: 100%; /* 根据需要调整宽度 */
+    /*height: 100%;*/
+    position: relative;
+    perspective: 500px; /* 3D视点距屏幕的距离 */
+    margin-right: auto;
+    margin-left: auto;
   }
 
   .prevBtn, .nextBtn {
@@ -3883,7 +3896,7 @@ a {
 .ft{
   justify-content: center;
   align-content: center;
-  padding-top: 15px;
+  padding-top: 10px;
 }
 
 .index6 .wrap .icon_img img{
@@ -3913,10 +3926,28 @@ a {
 .zoom-effect:hover {
     transform: scale(1.1);  /* 悬停时放大到原来的 1.1 倍 */
 }
-button:hover {
-  color: #fff;
-  background-color: #1a9b3f;
-  border: 1px solid #1a9b3f;
+.index6 .btn2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: white; /* 按钮默认背景颜色 */
+  border: none;
+  /*border: 1px solid #1a9b3f; !* 按钮默认边框颜色 *!*/
+  transition: background-color 0.3s, color 0.3s; /* 添加过渡效果 */
+}
+
+.index6 .btn2:hover {
+  background-color: #28a745; /* 悬停时背景颜色 */
+  /*border: 1px solid #1a9b3f; !* 悬停时边框颜色 *!*/
+}
+
+.index6 .btn2 img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
 }
 
 .index6  .appico {
