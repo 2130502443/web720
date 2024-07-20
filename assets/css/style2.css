@@ -734,7 +734,8 @@ a.serv_link:hover span {
 }
 
 .bg-theme1 {
-	background: #e01656 !important;
+	/*background: #e01656 !important;*/
+	background-color: #0e652c;
 }
 
 .bg-theme2 {
@@ -816,7 +817,9 @@ a.btn-agile span {
 
 .layer-agileits1 {
 	min-height: 50vh;
-	background: rgba(15, 122, 156, 0.79);
+	/*background: rgba(15, 122, 156, 0.79);*/
+	background: rgb(
+			220,220,220,0.64);
 }
 
 .layer-agileits1,
@@ -831,7 +834,8 @@ a.btn-agile span {
 
 .layer-agileits2 {
 	min-height: 50vh;
-	background: rgba(224, 22, 86, 0.69);
+	/*background: rgba(224, 22, 86, 0.69);*/
+	background:rgba(34,139,34, 0.69)
 }
 
 .layer-agileits-left {
