@@ -2885,7 +2885,7 @@ section .index3 .title h2 {
   background-size: cover;
   position: relative;
   overflow: hidden;
-  padding-top: 1.5rem; /* 为标题留出空间 */
+  /*padding-top: 1.5rem; !* 为标题留出空间 *!*/
 }
 
 .customTitle {
