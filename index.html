@@ -940,53 +940,20 @@ gtag('set', 'ads_data_redaction', true);
                          <h3>SOLARTECH  & BATTERY  INDONESIA 2024</h3>
                          <div class="wp-block-group">
                              <div class="wp-block">
-                                 <h2 id="days"></h2>
+                                 <h2>05</h2>
                                  <p>days</p>
                              </div>
                              <h5>:</h5>
                              <div class="wp-block">
-                                 <h2 id="hours"></h2>
+                                 <h2>08</h2>
                                  <p>hours</p>
                              </div>
                              <h5>:</h5>
                              <div class="wp-block">
-                                 <h2 id="minutes"></h2>
+                                 <h2>48</h2>
                                  <p>mins</p>
                              </div>
                          </div>
-
-                         <script>
-                             // 设置目标日期
-                             var targetDate = new Date('2024-11-12T00:00:00');
-
-                             // 每1000毫秒（1秒）更新倒计时
-                             setInterval(function() {
-                                 // 获取当前日期和时间
-                                 var currentDate = new Date();
-
-                                 // 计算时间差（毫秒）
-                                 var timeDifference = targetDate - currentDate;
-
-                                 // 检查是否已经过了目标日期
-                                 if (timeDifference < 0) {
-                                     // 如果是，停止倒计时并显示倒计时结束的消息
-                                     clearInterval(this);
-                                     document.getElementById('days').textContent = '00';
-                                     document.getElementById('hours').textContent = '00';
-                                     document.getElementById('minutes').textContent = '00';
-                                 } else {
-                                     // 如果还没有到目标日期，计算天数、小时数和分钟数
-                                     var days = Math.floor(timeDifference / (1000 * 60 * 60 * 24));
-                                     var hours = Math.floor((timeDifference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-                                     var minutes = Math.floor((timeDifference % (1000 * 60 * 60)) / (1000 * 60));
-
-                                     // 更新页面上的倒计时
-                                     document.getElementById('days').textContent = days;
-                                     document.getElementById('hours').textContent = ('0' + hours).slice(-2);
-                                     document.getElementById('minutes').textContent = ('0' + minutes).slice(-2);
-                                 }
-                             }, 1000);
-                         </script>
                          <a href="" class="more1 wow fadeInDown" style="visibility: hidden; animation-name: none;">Explore the catalog</a>
                      </div>
                      <div class="wp-image">
