@@ -6808,7 +6808,7 @@
  	display: inline-block;
  	width: 28px;
  	height: 28px;
- 	margin-top: 10px
+ 	/*margin-top: 10px*/
  }
 
  .Fast_contact ul>li:hover .onlineservice_tips {
@@ -6825,7 +6825,8 @@
  .Fast_contact ul>li.onlineservice_li>a.onlineService_tel {
  	width: 30px;
  	height: 30px;
- 	background-image: url("https://tdtbms.usa72.wondercdn.com/public/static/images/home/en-us/reset/fastPhone.png");
+	 background-image: url("assets/images/icon/电话.png");
+ 	/*background-image: url("https://tdtbms.usa72.wondercdn.com/public/static/images/home/en-us/reset/fastPhone.png");*/
  	background-repeat: no-repeat;
  	background-position: 0 0
  }
