@@ -2729,7 +2729,6 @@ section .index3 .title h2 {
   font-size: 2.5rem;
   font-weight: bold;
   margin: 20px 0;
-  left: -36%;
 }
 
 .icasea {
@@ -2740,7 +2739,6 @@ section .index3 .title h2 {
 
 .list {
   width: calc(25% - 20px); /* 计算出25%宽度，并减去margin */
-  /*max-width: 300px; !* 设置最大宽度 *!*/
   margin: 0 10px 20px;
   overflow: hidden;
   position: relative;
@@ -2799,6 +2797,7 @@ section .index3 .title h2 {
   line-height: 1.2rem;
 }
 
+/* 小屏幕样式 */
 @media screen and (max-width: 768px) {
   .icasea {
     flex-wrap: wrap; /* 在小屏幕上换行 */
@@ -2807,6 +2806,20 @@ section .index3 .title h2 {
 
   .list {
     width: calc(50% - 20px); /* 在小屏幕上两列排列 */
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .section-title {
+    font-size: 1.8rem;
+  }
+
+  .list {
+    width: calc(100% - 20px); /* 在超小屏幕上单列排列 */
+  }
+
+  .list .img {
+    height: 150px; /* 调整图片高度 */
   }
 }
 .index5 {
@@ -2876,6 +2889,17 @@ section .index3 .title h2 {
 .index5Swiper .swiper-button-prev:hover:after,
 .index5Swiper .swiper-button-next:hover:after {
   color: var(--hot);
+}
+.mainP{
+  display: flex;
+  align-items: center;
+  padding: 0.8rem 0;
+  background-color: rgba(173, 216, 230, 0.2); /* 半透明的浅蓝色背景 */
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+
+  /*padding-top: 1.5rem; !* 为标题留出空间 *!*/
 }
 .customContainer {
   display: flex;
