@@ -805,13 +805,13 @@ a.btn-agile span {
 
 .about-main-wthree .abt-right,
 .about-main-wthree .slide-right-bg {
-	background: url(../image/应用/1280.jpg) no-repeat center;
+	background: url(../images/应用/1280.jpg) no-repeat center;
 	background-size: cover;
 }
 
 
 .about-main-wthree .abt-right-bg {
-	background: url(../image/应用/853.jpg) no-repeat center;
+	background: url(../images/应用/853.jpg) no-repeat center;
 	background-size: cover;
 	height: 100%;
 }
@@ -856,15 +856,15 @@ a.btn-agile span {
 }
 
 .about-main-wthree .abt-left-top {
-	background: url(../image/应用/426.jpg) no-repeat center;
+	background: url(../images/应用/426.jpg) no-repeat center;
 	background-size: cover;
 }
 
 .about-main-wthree .abt-left-bottom {
-	background: url(../image/应用/4261.jpg) no-repeat center;
+	background: url(../images/应用/4261.jpg) no-repeat center;
 	background-size: cover;
 }
-/**/
+
 .about-main-wthree .ab-grid-left h5,
 .about-main-wthree .txt-ab-right h5 {
 	font-size: 1.5em;
