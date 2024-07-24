@@ -3278,7 +3278,7 @@ section .index3 .title h2 {
 }
 
 .indexInfo .background-image .overlay .down .links {
-  width: 68%;
+  width: auto;
   background-color: white;
   display: flex;
   justify-content: center;
@@ -3289,9 +3289,9 @@ section .index3 .title h2 {
   margin-bottom: 20px;
 }
 
-.link-container {
+.indexInfo .link-container {
   display: flex;
-  flex-wrap: wrap; /* 允许内容自动换行 */
+  /*flex-wrap: wrap; !* 允许内容自动换行 *!*/
   justify-content: center;
   align-items: center;
   list-style: none;
@@ -3301,7 +3301,8 @@ section .index3 .title h2 {
 
 .link-item {
   display: inline-block;
-  margin: 10px;
+  /*margin: 10px;*/
+  margin: 0px 100px;
   font-weight: bold;
   white-space: nowrap; /* 防止单个项溢出 */
 }
@@ -3310,7 +3311,13 @@ section .index3 .title h2 {
   margin-right: 5px;
   max-width: 20px; /* 确保图标适应移动设备 */
 }
+.ic-title{
+  font-size: 10px;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
 
+}
 .company-info {
   width: 100%;
   text-align: center;
@@ -3396,8 +3403,6 @@ section .index3 .title h2 {
   width: 500px;
 }
 
-
-
 .submit-button {
   padding: 10px 20px;
   border: none;
@@ -3411,35 +3416,327 @@ section .index3 .title h2 {
 .submit-button:hover {
   background-color: #218838;
 }
+.indexInfo .row{
+  display: flex;
+  /*flex-wrap: wrap;*/
+  text-align: center;
+  margin-bottom: 30px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  box-sizing: border-box;
+}
+@media screen and (max-width: 992px) {
+  .indexInfo .row{
+    display: flex;
+    /*flex-wrap: wrap;*/
+    text-align: center;
+    margin-bottom: 0;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .link-item {
+    display: inline-block;
+    /* margin: 10px; */
+    margin: 0px 50px;
+    font-weight: bold;
+    white-space: nowrap;
+  }
+  .indexInfo  .row .col-md-4{
+    position: relative;
+    min-height: 1px;
+    padding-right: 40px;
+    padding-left: 15px;
+  }
 
+  .cta-title {
+    width: 88%;
+    margin-top: 20px;
+    text-align: center;
+  }
+  .indexInfo .title h2 {
+    position: relative;
+    font-size: 0.2rem;
+    font-weight: bold;
+    color: var(--fontColor);
+    line-height: 0.48rem;
+    text-align: center;
+    margin-bottom: 0.36rem;
+    font-family: "Open Sans";
+    /* text-transform: uppercase; */
+  }
+  .stat-number {
+    font-size: 0.2rem;
+    font-weight: bold;
+    color: green;
+  }
+  .stat-label {
+    font-size: 0.12rem;
+    margin-top: 5px;
+    font-weight: bold;
+  }
+  .cta-title h1 {
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 0.1rem;
+  }
+  .contact-form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    width: 100%; /* 防止溢出 */
+    box-sizing: border-box; /* 包括内边距和边框在内 */
+  }
+  .input-field {
+    background-color: white;
+    /*margin: 10px;*/
+    padding: 10px;
+    height: 40px;
+    border-radius: 5px;
+    width: calc(33% - 40px); /* 计算宽度，防止溢出 */
+    max-width: 600px; /* 设置最大宽度 */
+    box-sizing: border-box; /* 包括内边距和边框在内 */
+  }
+  .input-field:nth-child(1) {
+    width: 100px;
+    height: 25px;
+    margin-right: 0;
+  }
+
+  .input-field:nth-child(2) {
+    width: 200px;
+    height: 25px;
+    margin-right: 0;
+  }
+
+  .input-field:nth-child(3) {
+    width: 300px;
+    height: 25px;
+    margin-right: 2px;
+  }
+  .submit-button {
+    padding: 5px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #28a745;
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    cursor: pointer;
+    width: 50px;
+    height: 25px;
+  }
+  .send-title{
+    font-size: 10px;
+  }
+  /* Chrome浏览器 */
+  input::-webkit-input-placeholder {
+    /*color: red;*/
+    font-size: 10px;
+  }
+
+  /* 火狐浏览器 */
+  input::-moz-placeholder {
+    font-size: 10px;
+    /*color: red;*/
+  }
+
+  /* IE */
+  input:-ms-input-placeholder {
+    font-size: 10px;
+    /*color: red;*/
+  }
+
+}
 @media screen and (max-width: 768px) {
   .input-field {
     width: calc(100% - 20px); /* 计算宽度，防止溢出 */
     margin: 5px 10px;
   }
+  .indexInfo .row .col-md-4 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .cta-title h1 {
+    margin-bottom: 1px;
+    font-weight: bold;
+    font-size: 5px;
+    text-align: left;
+  }
+  .indexInfo .title h2 {
+    position: relative;
+    font-size: 0.24rem;
+    font-weight: bold;
+    width: 100%;
+    color: var(--fontColor);
+    line-height: 0.48rem;
+    text-align: center;
+    margin-bottom: 0.36rem;
+    font-family: "Open Sans";
+    /* text-transform: uppercase; */
+  }
+
+  .contact-form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    width: 100%; /* 防止溢出 */
+    box-sizing: border-box; /* 包括内边距和边框在内 */
+  }
+  .send-title{
+    font-size: 10px;
+  }
+  .indexInfo .row{
+    display: flex;
+    /*flex-wrap: wrap;*/
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    width: 100%;
+    margin-bottom: 0;
+    box-sizing: border-box;
+  }
+  .input-field {
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+    height: 40px;
+    border-radius: 5px;
+    width: calc(33% - 40px); /* 计算宽度，防止溢出 */
+    max-width: 200px; /* 设置最大宽度 */
+    box-sizing: border-box; /* 包括内边距和边框在内 */
+  }
+  .input-field:nth-child(1) {
+    width: 60px;
+    height: 25px;
+    margin-right: 2px;
+  }
+
+  .input-field:nth-child(2) {
+    width: 100px;
+    height: 25px;
+    margin-right: 2px;
+  }
+
+  .input-field:nth-child(3) {
+    width: 150px;
+    height: 25px;
+    margin-right: 2px;
+  }
+  .submit-button {
+    margin-top: 6px;
+    padding: 5px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #28a745;
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    cursor: pointer;
+    width: 50px;
+    height: 25px;
+  }
+  /* Chrome浏览器 */
+  input::-webkit-input-placeholder {
+    /*color: red;*/
+    font-size: 7px;
+  }
+
+  /* 火狐浏览器 */
+  input::-moz-placeholder {
+    font-size: 10px;
+    /*color: red;*/
+  }
+
+  /* IE */
+  input:-ms-input-placeholder {
+    font-size: 10px;
+    /*color: red;*/
+  }
 
   .link-item {
     margin: 0 5px;
   }
-
+  .ic-title {
+    font-size: 8px;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+  }
+  .cta-title {
+    width: 100%;
+    font-size: 8px;
+    text-align: center;
+  }
   .stat-item {
     margin: 10px;
   }
 
   .info p {
-    font-size: 20px;
+    /*font-size: 20px;*/
+    font-size: 10px;
   }
 
   .stat-number {
-    font-size: 20px;
+    width: 100px;
+    /*font-size: 20px;*/
+    font-size: 15px;
   }
 
   .stat-label {
-    font-size: 14px;
+    /*font-size: 14px;*/
+    font-size: 7px;
+    font-weight: bold;
+    color: black;
   }
+  .indexInfo .background-image .overlay .down .links {
+    width: auto;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 20px 0;
+    border-radius: 10px;
 
-  .contact-form {
+    margin-bottom: 20px;
+  }
+  .indexInfo {
+    background-size: cover;
+    margin: auto;
+    width: 100%;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
     flex-direction: column;
+  }
+  .background-image {
+    width: 100%;
+    min-height: 70vh;
+    background: url(../images/公司背景1.jpg) no-repeat center center / cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    position: relative;
+  }
+input{
+  font-size: 8px;
+}
+  .contact-form {
+    width: 500px;
+    /*flex-direction: column;*/
     align-items: stretch;
   }
 
@@ -4220,8 +4517,8 @@ a {
 
   .index7 .subemail button {
     position: relative;
-    top: 0;
-    left: 0;
+    top: -63px;
+    left: 150px;
     margin-top: 0;
     width: auto;
   }
@@ -6909,7 +7206,7 @@ section .about2 .title h2 {
 
   section .title h2,
   section .title h3 {
-    font-size: 28px;
+    font-size: 15px;
     line-height: 30px;
     padding: 0;
     left: 0;
