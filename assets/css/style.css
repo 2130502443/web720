@@ -7206,7 +7206,8 @@ section .about2 .title h2 {
 
   section .title h2,
   section .title h3 {
-    font-size: 15px;
+    /*font-size: 15px;*/
+    font-size: 0.48rem;
     line-height: 30px;
     padding: 0;
     left: 0;
