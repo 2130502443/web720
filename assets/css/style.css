@@ -3251,7 +3251,7 @@ section .index3 .title h2 {
 .background-image {
   width: 100%;
   min-height: 100vh;
-  background: url('../images/公司背景1.jpg') no-repeat center center/cover;
+  background: url(../images/background.jpg) no-repeat center center/cover;
   display: flex;
   align-items: flex-end; /* 使背景图像对齐到容器底部 */
   justify-content: center;
@@ -3725,7 +3725,7 @@ section .index3 .title h2 {
   .background-image {
     width: 100%;
     min-height: 70vh;
-    background: url(../images/公司背景1.jpg) no-repeat center center / cover;
+    background: url(../images/background.jpg) no-repeat center center / cover;
     display: flex;
     align-items: flex-end;
     justify-content: center;
