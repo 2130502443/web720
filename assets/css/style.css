@@ -4049,6 +4049,7 @@ a {
 @media screen and (max-width: 768px) {
   .main-content {
     flex-direction: column;
+    margin-bottom: 0;
   }
 
   .video, .carousel {
@@ -4081,12 +4082,12 @@ a {
     margin-left: auto;
   }
   .box .btnimg img {
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
   }
   .prevBtn, .nextBtn {
-    width: 40px;
-    height: 40px;
+    width: 20px;
+    height: 20px;
     top: 50%;
     transform: translateY(-50%);
   }
@@ -4517,8 +4518,8 @@ a {
 
   .index7 .subemail button {
     position: relative;
-    top: -63px;
-    left: 150px;
+    top: -61px;
+    left: 130px;
     margin-top: 0;
     width: auto;
   }
